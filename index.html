@@ -6,21 +6,27 @@
 <link href="./resources/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <header class="container" id="top-gap">
-    <div>
-	  <img src="./resources/images/logo-white.png" alt="white glasses logo" />
-	  <span>Tortoiseshell Optics</span>
-	</div>
-	<nav>
-	  <a href="#services">Services</a>
-	  <a href="#">Products</a>
-	  <a href="#contact">Contact</a>
+  <!-- Header with logo & navigation -->
+  <header>
+    <!-- Navigation with logo, name & menu -->
+	<!-- Nav is in it's own container -->
+	<nav class="container" id="top-gap">
+	  <div>
+	    <img src="./resources/images/logo-white.png" alt="white glasses logo" />
+	    <span>Tortoiseshell Optics</span>
+	  </div>
+	  <div class="menu">
+	    <a href="#services">Services</a>
+	    <a href="#">Products</a>
+	    <a href="#contact">Contact</a>
+	  </div>
 	</nav>
-  </header>
-  <div class="main">
-    <div class="banner">
-	  <h2>DON'T JUST LOOK, SEE.</h2>
+    <!-- Putting banner within site container -->
+	<div class="flexright container">
+	  <div class="banner">
+	    <span>DON'T JUST LOOK, SEE.</span>
+      </div>
 	</div>
-  </div>
+  </header>
 </body>
 </html>
