@@ -1,0 +1,41 @@
+html {
+	font-size: 18px;
+}
+body {
+	line-height: 1.4;
+	font-family: Helvetica, Sans-Serif;
+}
+header {
+	color: white;
+	background-color: cadetblue;
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+	justify-content: space-between;
+	
+}
+header img {
+	height: 1.5rem;
+	padding-left: 2rem;
+}
+header span {
+	padding-left: 1rem;
+	font-size: 1rem;
+}
+header div {
+	display: flex;
+	align-items: center;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+#top-gap {
+	position: relative;
+	top: 1rem;
+}
+a {
+	color: white;
+	text-decoration: none;
+	margin-right: 2rem;
+}
