@@ -33,7 +33,6 @@ header {
 	height: 30rem;
 	width: 100%;
 	background-image: url("../images/glasses-bg.png");
-	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -109,11 +108,13 @@ footer {
 	display: flex;
 	align-items: center;
 	background-color: azure;
+	padding: 4rem 0;
 }
 footer img {
 	height: 1.5rem;
 	width: auto;
-	padding: 4rem 1rem 4rem 4rem;
+	margin-right: 1rem;
+	margin-left: 4rem;
 }
 @media only screen and (max-width: 1050px) {
 	header {
@@ -136,5 +137,55 @@ footer img {
 	}
 }
 @media only screen and (max-width: 580px) {
-	
+	header {
+		height: 17rem;
+	}
+	.banner {
+		padding-top: 9rem;
+		right: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.banner span {
+		padding: 1rem 0;
+		font-size: 1rem;
+		width: 100%;
+	}
+	.supporting {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 3.77rem;
+	}
+	.service-item {
+		font-size: 0.77rem;
+		padding: 0.77rem;
+	}
+	.info-item {
+		margin-bottom: 4rem;
+		margin-right: 0;
+		width: 100%;
+	}
+	.info-item p {
+		font-size: 0.77rem;
+	}
+	.title {
+		width: 100%;
+	}
+	.menu {
+		display: none;
+	}
+	.small-menu {
+		display: inline-block;
+	}
+	footer span {
+		display: none;
+	}
+	footer {
+		justify-content: center;
+	}
+	footer img {
+		margin: 0;
+	}
 }
