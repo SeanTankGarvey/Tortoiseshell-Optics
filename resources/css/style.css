@@ -64,3 +64,27 @@ a {
 	position: relative;
 	left: 2rem;
 }
+.supporting {
+	display: flex;
+	justify-content: center;
+}
+.service-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem;
+	height: 8rem;
+	width: 5rem;
+	margin: 0;
+	text-align: center;
+}
+.paper {
+	width: 3.5rem;
+	height: auto;
+}
+.ruler,
+.truck {
+	width: 5rem;
+	height: auto;
+}
