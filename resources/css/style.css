@@ -103,3 +103,16 @@ a {
 	padding: 0.5rem 1.25rem;
 	width: 10rem;
 }
+.small-menu {
+	display: none;
+}
+footer {
+	display: flex;
+	align-items: center;
+	background-color: azure;
+}
+footer img {
+	height: 1.5rem;
+	width: auto;
+	padding: 4rem 1rem 4rem 4rem;
+}
