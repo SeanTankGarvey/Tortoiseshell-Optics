@@ -48,7 +48,6 @@ a {
 }
 .banner {
 	padding-top: 10rem;
-	height: 5rem;
 	color: black;
 }
 .banner span {
@@ -115,4 +114,24 @@ footer img {
 	height: 1.5rem;
 	width: auto;
 	padding: 4rem 1rem 4rem 4rem;
+}
+@media only screen and (max-width: 1050px) {
+	header {
+		height: 22rem;
+	}
+	#top-gap {
+		top: 0;
+	}
+	.banner {
+		padding-top: 5rem;
+		position: relative;
+		right: 2rem;
+	}
+	.banner span {
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
+	.flexright {
+		left: 0;
+	}
 }
