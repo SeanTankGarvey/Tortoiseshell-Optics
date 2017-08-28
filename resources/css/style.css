@@ -88,3 +88,18 @@ a {
 	width: 5rem;
 	height: auto;
 }
+.info-item {
+	width: 35%;
+	margin-right: 5%;
+	margin-bottom: 5rem;
+}
+.title {
+	color: white;
+	display: block;
+	background-color: cadetblue;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	padding: 0.5rem 1.25rem;
+	width: 10rem;
+}
